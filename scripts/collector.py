@@ -37,7 +37,10 @@ async def collect_all() -> dict:
     for vid in ids:
         data = stats_map.get(vid)
         if not data:
-            print(f"  FAIL: no API data for {vid}")
+            print(
+                f"  WARN: no API data for {vid} "
+                f"(deleted, private, or invalid) — skip, continue"
+            )
             failed += 1
             continue
 
@@ -77,7 +80,9 @@ def main():
         f"Dashboard: {dash['kpi']['video_count']} videos, "
         f"{dash['kpi']['total_views']:,} total views"
     )
-    sys.exit(0 if result["failed"] == 0 else 1)
+    if result["total"] > 0 and result["failed"] >= result["total"]:
+        sys.exit(1)
+    sys.exit(0)
 
 
 if __name__ == "__main__":
