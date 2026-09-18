@@ -115,6 +115,7 @@ export default defineConfig(({ mode }) => {
     base: process.env.PAGES_BASE || "/",
     plugins: [react(), localCollectPlugin()],
     server: {
+      host: true,
       port: 3000,
       proxy: {
         "/yt-api": {

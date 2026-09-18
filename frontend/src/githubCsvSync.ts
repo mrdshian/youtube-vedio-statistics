@@ -22,7 +22,7 @@ export function defaultGithubSettings(): GithubSyncSettings {
   const repoEnv = (import.meta.env.VITE_GITHUB_REPO as string | undefined) || "";
   const [envOwner = "", envRepo = ""] = repoEnv.includes("/") ? repoEnv.split("/", 2) : ["", ""];
   return {
-    owner: envOwner || (import.meta.env.VITE_GITHUB_OWNER as string | undefined) || "Daas3bb",
+    owner: envOwner || (import.meta.env.VITE_GITHUB_OWNER as string | undefined) || "mrdshian",
     repo: envRepo || (import.meta.env.VITE_GITHUB_REPO_NAME as string | undefined) || "youtube-vedio-statistics",
     branch: (import.meta.env.VITE_GITHUB_BRANCH as string | undefined) || "main",
     token: "",

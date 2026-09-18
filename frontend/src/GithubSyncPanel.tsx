@@ -75,7 +75,7 @@ export function GithubSyncPanel({ onSaved }: GithubSyncPanelProps) {
               <input
                 value={settings.owner}
                 onChange={(e) => setSettings({ ...settings, owner: e.target.value.trim() })}
-                placeholder="Daas3bb"
+                placeholder="mrdshian"
               />
             </label>
             <label>

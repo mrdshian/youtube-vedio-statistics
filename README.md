@@ -744,7 +744,7 @@ Repository permissions
 
 | 字段 | 示例 | 说明 |
 |------|------|------|
-| 用户名 / 组织 | `Daas3bb` | 仓库 Owner，见 `github.com/Daas3bb/...` |
+| 用户名 / 组织 | `mrdshian` | 仓库 Owner，见 `github.com/mrdshian/...` |
 | 仓库名 | `youtube-vedio-statistics` | 不含用户名 |
 | 分支 | `main` | 通常为 `main` 或 `master` |
 | GitHub Token | `github_pat_...` | 上一步复制的完整 Token |
@@ -762,7 +762,7 @@ GitHub Pages 部署的看板会自动预填仓库名（构建时注入 `VITE_GIT
 ┌──────────────────────────────────────────────────────────┐
 │  [ GitHub 同步已配置 ✓ ]  [ YouTube 采集未配置 ]  ...     │
 ├──────────────────────────────────────────────────────────┤
-│  用户名 / 组织    [ Daas3bb                          ]   │
+│  用户名 / 组织    [ mrdshian                          ]   │
 │  仓库名          [ youtube-vedio-statistics          ]   │
 │  分支            [ main                              ]   │
 │  GitHub Token    [ ••••••••••••••••••••••••••••••••  ]   │
