@@ -279,6 +279,16 @@
       "channel_title": "Chris Maher",
       "status": "active",
       "created_at": "2026-09-17 16:46:41"
+    },
+    {
+      "video_id": "tI3gQwgQeBA",
+      "title": "$11 Ambilight Alternative - Not Philips Hue, Not FancyLeds, Not SignalRGB, Not Govee...",
+      "video_url": "https://www.youtube.com/watch?v=tI3gQwgQeBA",
+      "thumbnail_url": "https://i.ytimg.com/vi/tI3gQwgQeBA/mqdefault.jpg",
+      "publish_time": "2026-08-09",
+      "channel_title": "Chris Maher",
+      "status": "active",
+      "created_at": "2026-10-14 17:35:51"
     }
   ],
   "history": [
@@ -32285,6 +32295,15 @@
       "like_count": "927",
       "comment_count": "59",
       "created_at": "2026-10-14 17:07:28"
+    },
+    {
+      "video_id": "tI3gQwgQeBA",
+      "snapshot_time": "2026-10-14 17:36:22",
+      "snapshot_bucket": "2026-10-14 17:00:00",
+      "view_count": "240328",
+      "like_count": "6707",
+      "comment_count": "461",
+      "created_at": "2026-10-14 17:36:22"
     }
   ]
 }
